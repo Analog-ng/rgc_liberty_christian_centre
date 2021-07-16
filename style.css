@@ -37,6 +37,7 @@ padding: auto!important;
 .navbar .navbar-nav > li > a {
   color: #000!important;
   font-size: 15px!important;
+  font-weight: 600!important;
 }
 
 .navbar .navbar-nav > li > a:hover,
@@ -68,8 +69,8 @@ padding: auto!important;
 .carousel-inner img{
 
   width: 100%!important;
-  height: 100%!important;
-  opacity: 0.9!important;
+  height: auto!important;
+  opacity: 0.8!important;
 
 }
 .carousel-caption{
