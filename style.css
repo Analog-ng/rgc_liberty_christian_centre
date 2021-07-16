@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/*
 html, body{
   height: 100%!important;
   width: 100%!important;
   font-family: Poppins, sans-serif;
   color: #222;
-}
+}*/
 
 p{
 color: #000;
-font-size: 20px!important;
+font-size: 18px!important;
 font-family: "Montserrat", Arial, sans-serif!important;
 font-weight: 400!important;
 padding: auto!important;
@@ -30,11 +31,11 @@ padding: auto!important;
   padding: .8rem;
 }
 .navbar-nav li{
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .navbar .navbar-nav > li > a {
-  color: #222!important;
+  color: #000!important;
   font-size: 15px!important;
 }
 
@@ -62,11 +63,6 @@ padding: auto!important;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   
-}
-
-.dropdown-menu{
-  background-color: #ff1000!important;
-  padding: 10px!important;
 }
 
 .carousel-inner img{
@@ -98,13 +94,13 @@ padding: auto!important;
 }
 .jumbotron{
   margin-top: 100px;
-  padding-right: 120px!important;
-  padding-left: 120px!important;
+  padding-right: 100px!important;
+  padding-left: 100px!important;
 }
 p.para {
   font-style: normal!important;
   font-weight: 500!important;
-  font-size: 28px!important;
+  font-size: 24px!important;
   font-family: Montserrat, sans-serif!important;
   margin-bottom: 20px!important;
   margin-top: 20px!important;
