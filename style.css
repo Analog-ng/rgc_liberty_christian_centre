@@ -148,6 +148,7 @@ img {
   font-family: Montserrat, sans-serif;
   font-weight: 700!important;
   line-height: 4rem!important;
+  margin-top: 3.2rem;
   font-style: normal;
   color: #ff1000;
 }
@@ -291,6 +292,11 @@ a#chat_btn.btn.btn-outline-light.btn-lg{
 .my-float{
 margin-top:16px;
 }
+
+.card {
+  margin-top: 3.2rem;
+}
+
 h3.card-title {
   position: relative;
   padding-bottom: 30px;
@@ -406,6 +412,7 @@ p.ministry{
     font-weight: 600!important;
     line-height: 3.2rem!important;
     font-style: normal;
+    margin-top: 3.2rem;
     color: #ff1000;
   }
   .caro-cap h1 {
