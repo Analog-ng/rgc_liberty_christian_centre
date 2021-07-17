@@ -8,6 +8,7 @@ body{
   font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
+  
 
 }
 
@@ -26,8 +27,8 @@ img {
 }
 
 .navbar-toggler:hover{
-  background-color: #555;
-  color: #f90101;
+  background-color: #fff;
+  color: #f90101!important;
 }
 
 .navbar-toggler{
@@ -39,12 +40,11 @@ img {
 .navbar{
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: .1rem;
-  background: rgba(0, 0, 0, .6)!important;
 }
 .navbar-brand img{
-  height: 3.5rem;
+  height: 4rem;
 
 }
 .navbar-nav li{
@@ -103,6 +103,33 @@ img {
   padding-bottom: 1rem;
 
 }
+/*-----leads----*/
+.caro-item{
+  height: 45vh;
+}
+.caro-cap{
+  position: absolute;
+  top: 20%;
+  text-transform: capitalize;
+  width: 100%;
+  right: 0!important;
+  left: 0!important;
+}
+
+.caro-cap h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: .3rem;
+  padding-bottom: 1.6rem;
+
+}
+.caro-cap h1.ontop{
+  padding-bottom: .6rem!important;
+
+}
+
+/*----End of Lead------*/
 
 .btn-lg{
   border-radius: 0;
@@ -119,7 +146,7 @@ img {
 .banner {
   font-size: 4rem!important;
   font-family: Montserrat, sans-serif;
-  font-weight: 700;
+  font-weight: 700!important;
   line-height: 4rem!important;
   font-style: normal;
   color: #ff1000;
@@ -139,7 +166,7 @@ h2.welcome_header2.display-4{
   font-size: 42px!important;
   font-family: Montserrat, sans-serif;
   font-weight: 800!important;
-  line-height: 36px!important;
+  line-height: 48px!important;
   font-style: normal!important;
   color: #484848;
   margin-top: 10px!important;
@@ -148,7 +175,7 @@ h1.welcome_header2.display-4{
   font-size: 56px!important;
   font-family: Montserrat, sans-serif;
   font-weight: 900!important;
-  line-height: 36px!important;
+  line-height: 48px!important;
   font-style: normal!important;
   color: #f90101!important;
   margin-bottom: 10px!important;
@@ -180,7 +207,7 @@ h1.welcome_header2.display-4{
 }
  
 .social a{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding: 10px;
 }
 
@@ -204,29 +231,39 @@ h1.welcome_header2.display-4{
   color: #000!important;
   font-size: 18px!important;
 }
-
 .back-to-top {
   position: fixed;
   bottom: 50px;
   right: 25px;
   width:4rem;
-  height:4rem;
-  font-size:2.5rem;
+  height:3.5rem;
+  font: size 2.5rem !important;
   display: none;
-  background-color: red!important; /* Set a background color */
+  background-color: #ff1000!important; /* Set a background color */
   color: white!important; /* Text color */
 }
 .back-to-top:hover {
 
-  background-color:#555!important; /* Set a background color */
-  color: #fff!important; /* Text color */
+  background-color:transparent!important; /* */
+  color: tomato!important; 
 }
+
+nav#footer-nav.navbar.navbar-expand-md.navbar-light.bg-light{
+	text-transform: uppercase!important;
+  font-weight: 600!important;
+  font-size: 1.2rem!important;
+	line-height: 2!important;
+  letter-spacing: .1rem!important;
+  background-color: transparent!important;
+
+}
+
 .float1{
 position:fixed;
 width:4rem;
 height: 4rem;;
-bottom:40px;
-left:25px;
+bottom:2.5rem;
+left:1.6rem;
 background-color:#25d366;
 color:#FFF;
 border-radius:50px;
@@ -235,19 +272,20 @@ font-size:2rem;
 box-shadow: 2px 2px 3px #999;
 z-index:100;
 }
-.btn.float2{
-position:fixed;
-height: auto!important;
-width: auto;
-bottom:px!important;
-left:90px;
-background-color:#f6f6f6;
-border-radius:5px;
-text-align:center;
-font-size:1rem;
-padding: 13px;
-box-shadow: 2px 2px 3px #999;
-z-index:100;
+
+a#chat_btn.btn.btn-outline-light.btn-lg{
+  position: fixed!important;
+  margin: 5px 10px!important;
+  width: auto !important;;
+  height: auto!important;
+  bottom: 2.5rem !important;
+  left:4.7rem !important;
+  background-color: silver!important;
+  color:#000;
+  border-radius:5px!important;
+  font-size:1.1rem!important;
+  z-index:100!important;
+  text-decoration: none!important;
 }
 
 .my-float{
@@ -336,55 +374,65 @@ p.ministry{
     padding-bottom: .5rem;
   
   }
+  .navbar-brand img{
+    height: 3.5rem;
   
-  .btn-lg{
-    font-size: 1rem;
   }
-  .display-4 {
-    font-size: 2.6rem!important;
+  
+  .btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem!important;
+    line-height: 1.5;
+    border-radius: .3rem;
+  }
+   .display-4  {
+    font-size: 2.4rem!important;
     line-height: 1.2!important;
+    padding-top: 0.5rem;
   }
-  .back-to-top {
-    position: fixed;
-    bottom: 50px;
-    right: 25px;
-    width:2.2rem;
-	  height:2.2rem;
-    display: none;
-    background-color: red!important; /* Set a background color */
-    color: white!important; /* Text color */
-}
-.back-to-top:hover {
+  .social a{
+    font-size: 2rem;
+    padding: 10px;
+  }
+  p.para{
 
-    background-color:#555!important; /* Set a background color */
-    color: #fff!important; /* Text color */
-}
-  .float{
-	position:fixed;
-	width:35px;
-	height:35px;
-	
-}
-button.float{
-	position:fixed;
-	height: auto!important;
-  width: auto;
-	bottom:px!important;
-	left:90px;
-	background-color:#f6f6f6;
-	border-radius:5px;
-	text-align:center;
-  font-size:16px;
-  padding: 13px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 1rem!important;
+  }
+  .banner {
+    font-size: 3rem!important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600!important;
+    line-height: 3.2rem!important;
+    font-style: normal;
+    color: #ff1000;
+  }
+  .caro-cap h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 1.5rem;
+    letter-spacing: .3rem;
+  }
+  p#about.para{
+    padding: 5px!important;
+    padding-top: 15px!important;
+  }
+  .h5, h5 {
+    font-size: 1rem!important;
+  }
   
- 
-}
+  .display-3 {
+    font-size: 3.5rem!important;
+    line-height: 1.2!important;
+    font-weight: 900!important;
+    color: #ff1000!important;
+    padding-top: 50px!important;
+  }
 
 
-@media (max-width: 576px) {
+
 
   
 }
@@ -392,7 +440,6 @@ button.float{
 
 
 /*
-
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
@@ -408,11 +455,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
