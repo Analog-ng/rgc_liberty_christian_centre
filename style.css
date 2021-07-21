@@ -545,6 +545,26 @@ div.sermon_para h3{
 /*---Media Queries --*/
 
 @media (max-width: 767px) {
+
+  .container {
+    max-width: 767px!important;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  body{
+    overflow-x: hidden;
+    height: 100%!important;
+    max-width: 767px!important;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  
+  }
   .carousel-caption h1{
     font-size: 2.3rem;
     letter-spacing: .15rem;
@@ -636,8 +656,7 @@ div.sermon_para h3{
   }
   .blog-content{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    
   }
 
 
