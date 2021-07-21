@@ -11,7 +11,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow-x: hidden!important;
   height: 100%!important;
   width: 100%!important;
   font-family: Poppins, sans-serif;
@@ -57,7 +57,7 @@ img {
   letter-spacing: .1rem;
 }
 .navbar-brand img{
-  height: 3.5rem;
+  height: 3rem!important;
 
 }
 .navbar-nav li{
@@ -556,7 +556,7 @@ div.sermon_para h3{
   }
 
   body{
-    overflow-x: hidden;
+    overflow-x: hidden!important;
     height: 100%!important;
     max-width: 767px!important;
     font-family: Poppins, sans-serif;
