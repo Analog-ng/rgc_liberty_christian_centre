@@ -645,9 +645,9 @@ div.sermon_para h3{
 }
 @media screen and (min-width: 992px){
   .blog-content{
-   
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    gap: 2rem;
   }
   
 }
