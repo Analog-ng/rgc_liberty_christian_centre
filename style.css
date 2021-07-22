@@ -547,21 +547,15 @@ div.sermon_para h3{
 @media (max-width: 767px) {
 
   .container {
-    max-width: 767px!important;
-    width: 100%;
+    max-width: 100%!important;
+    overflow-x: hidden!important;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+
   }
 
   body{
     overflow-x: hidden!important;
-    height: 100%!important;
-    max-width: 767px!important;
-    font-family: Poppins, sans-serif;
-    margin: 0;
-    padding: 0;
     
   
   }
@@ -577,7 +571,8 @@ div.sermon_para h3{
   
   }
   .navbar-brand img{
-    height: 2.5rem;
+    height: 2.93rem!important;
+    width: 8.75rem!important;;
   
   }
   
